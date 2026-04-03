@@ -159,9 +159,9 @@ void nestedLoop(int n) {
 
 // QUESTION 30
 // What is the time complexity?
-for(int i=1; i<n; i=i+sqrt(n)) {
-    cout << i << endl;
-}
+for(int i=1; i<n; i=i+sqrt(n)) { // Note: i is incremented by sqrt(n) in each iteration
+    cout << i << endl; // log(n) iterations approximately, since i grows by sqrt(n) each time 
+} 
 
 // QUESTION 31
 // What is the time complexity?
